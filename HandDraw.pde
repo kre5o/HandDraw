@@ -18,8 +18,8 @@ void setup() {
   opencv = new OpenCV(this, 640/2, 480/2);
   opencv3 = new OpenCV(this, 640/2, 480/2);
 
-  opencv.loadCascade("C:/Users/kreso/AppData/Local/Temp/untitled7296695455632343659sketches/sketch_170304b/data/fist.xml", true);
-  opencv3.loadCascade("C:/Users/kreso/AppData/Local/Temp/untitled7296695455632343659sketches/sketch_170304b/data/palm.xml", true);
+  opencv.loadCascade("fist.xml");
+  opencv3.loadCascade("palm.xml");
 
   background = createGraphics(640/2, 480/2);
   video.start();
